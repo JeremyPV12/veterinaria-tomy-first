@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./styles/tailwind.css">
 </head>
 <body>
-    <div class="page">
+    <div class="page ">
         <header class="">
             <div class="logo-information container">
                 <div class="logo flex justify-between items-center ">
@@ -38,14 +38,14 @@
                     </div>
                 </div>
             </div>
-            <nav class="busqueda color-main bg-color-main py-3 flex ">
-                <div class="text-color-cuarto font-medium pl-20 pr-10"><a href="">Inicio</a></div>
-                <div class="text-color-cuarto font-medium pr-10"><a href="">Servicios</a></div>
-                <div class="text-color-cuarto font-medium pr-10"><a href="">Reseñas</a></div>
-                <div class="text-color-cuarto font-medium pr-10"><a href="">Mi Cuenta</a></div>
+            <nav class="busqueda color-main bg-color-main py-3 flex">
+                <div class="text-color-cuarto font-medium pl-20 pr-10 hover:text-color-terciario"><a href="">Inicio</a></div>
+                <div class="text-color-cuarto font-medium pr-10 hover:text-color-terciario"><a href="">Servicios</a></div>
+                <div class="text-color-cuarto font-medium pr-10 hover:text-color-terciario"><a href="">Reseñas</a></div>
+                <div class="text-color-cuarto font-medium pr-10 hover:text-color-terciario"><a href="">Mi Cuenta</a></div>
                 <div class="flex pl-96 mr-4"><form action="">
                     <label for="" class="flex  ">
-                        <input class="rounded-md flex pl-10 mr-2 bg-transparent border-x-orange-100" type="text" placeholder=" Buscar" >
+                        <input class="rounded-md flex pl-10 mr-2 bg-transparent border-x-orange-100 hover:bg-color-cuarto" type="text" placeholder=" Buscar" >
                         <a href=""><svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                           </svg>
@@ -67,17 +67,36 @@
             <div class="container">
                 <div class="bg-white h-8"></div>
             </div>
-            <div><img class="mx-auto h-auto" src="./assets/image/tester.jpg" alt="imgen" ></div>
+            <div class="flex justify-between">
+                <img class="mx-auto h-auto" src="./assets/image/tester.jpg" alt="imgen" >
+            </div>
             <div class="">
-                <h1 class="text-center text-color-secundary font-extrabold text-3xl py-2">Bienvenidos  a la Veterinaria Tomy</h1>
-                <h2 class="text-center text-color-main font-bold text-2xl py-2">Un gran lugar donde salvamos vidas</h2>
+                <h1 class="text-center text-color-secundary font-extrabold text-3xl py-2">BIENVENIDOS A LA VETERINARIA TOMY</h1>
+                <h2 class="text-center text-color-main font-bold text-2xl py-2">UN GRAN LUGAR DONDE SALVAMOS VIDAS</h2>
                 <p class="text-center text-color-letter font-medium text-1xl py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Doloribus quae reiciendis mollitia odit obcaecati quia? Voluptates eum ducimus accusamus illum laudantium, placeat, ipsa <br>porro ea incidunt esse iste dolorum vel!</p>
             </div>
-            <div><img class="max-w-5xl max-h-80 mx-auto" src="./assets/image/logo-page-main.jpg" alt=""></div>
+            <div class="flex justify-center">
+                <img class="max-w-5xl max-h-72 mx-auto" src="./assets/image/logo-page-main.jpg" alt="">
+                <img class="max-w-5xl max-h-72 mx-auto" src="./assets/image/logo-page-main.jpg" alt="">
+                <img class="max-w-5xl max-h-72 mx-auto" src="./assets/image/logo-page-main.jpg" alt="">
+            </div>
             <div>
                 <div>
-                    <h1 class="text-center text-color-secundary  font-extrabold text-2xl pt-6">Cuidamos la salud de las mascotas</h1>
-                    <h2 class="text-center text-color-main font-bold text-3xl py-4">Nuestros Servicios</h2>
+                    <h1 class="text-center text-color-secundary  font-extrabold text-2xl pt-6">LOS MEJORES </h1>
+                    <h2 class="text-center text-color-main font-bold text-3xl py-4">NUESTROS ESPECIALISTAS</h2>
+                </div>
+                <div class="flex justify-center">
+                    <div class=" border w-72 mx-5 h-110 rounded-lg">
+                        <img class="w-72 h-96" src="./assets/image/doc-veterinary.jpg" alt="">
+                        <h3 class="bg-color-main text-color-cuarto font-medium text-xl"><span class="ml-4">Medico veterinario</span></h3>
+                        <h3 class="bg-color-main text-color-terciario font-medium text-xl"><span class="ml-4">Tomy Perez Huamany</span></h3>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h1 class="text-center text-color-secundary  font-extrabold text-2xl pt-6">CUIDAMOS LA SALUD DE LAS MASCOTAS</h1>
+                    <h2 class="text-center text-color-main font-bold text-3xl py-4">NUESTROS SERVICIOS</h2>
                 </div>
                 <div class="flex justify-center ">
                     <div class=" border w-72 mx-5 h-96 rounded-lg">
@@ -113,11 +132,11 @@
                 </div>
                 <div class="border text-center flex justify-center h-auto w-32  mt-5 bg-color-terciario mx-auto rounded"><h2><a href="">Ver más</a></h2></div>
                 <div>
-                    <h1 class="text-center text-color-secundary  font-extrabold text-2xl pt-6">Mejores productos y precios</h1>
-                    <h2 class="text-center text-color-main font-bold text-3xl py-4">Productos</h2>
+                    <h1 class="text-center text-color-secundary  font-extrabold text-2xl pt-6">MEJORES PRODUCTOS Y PRECIOS</h1>
+                    <h2 class="text-center text-color-main font-bold text-3xl py-4">PRODUCTOS</h2>
                 </div>
                 <div class="flex justify-center">
-                    <div class="border w-60 h-72 mx-5 mt-4 rounded-lg">
+                    <div class="border border-gray-500 shadow-lg w-60 h-auto mx-5 mt-4 rounded-lg">
                         <img class="w-40 h-40 ml-9 " src="./assets/image/eat-dog.jpg" alt="perro-con-ropa">
                         <div>
                             <h3 class=" ml-3 font-semibold text-base mb-2 mt-1 text-color-main">Bell's Adulto para perro </h3>
@@ -128,7 +147,7 @@
                             <h3 class="text-center text-color-cuarto font-normal text-lg"> <a href="">Comprar</a></h3>
                         </div>
                     </div>
-                    <div class="border w-60 h-72 mx-5 mt-4 rounded-lg">
+                    <div class="border border-gray-500 shadow-lg w-60 h-auto mx-5 mt-4 rounded-lg">
                         <img class="w-40 h-40 ml-9 " src="./assets/image/eat-dog.jpg" alt="perro-con-ropa">
                         <div>
                             <h3 class=" ml-3 font-semibold text-base mb-2 mt-1 text-color-main">Bell's Adulto para perro </h3>
@@ -139,7 +158,7 @@
                             <h3 class="text-center text-color-cuarto font-normal text-lg"> <a href="">Comprar</a></h3>
                         </div>
                     </div>
-                    <div class="border w-60 h-72 mx-5 mt-4 rounded-lg">
+                    <div class="border border-gray-500 shadow-lg w-60 h-auto mx-5 mt-4 rounded-lg">
                         <img class="w-40 h-40 ml-9 " src="./assets/image/eat-dog.jpg" alt="perro-con-ropa">
                         <div>
                             <h3 class=" ml-3 font-semibold text-base mb-2 mt-1 text-color-main">Bell's Adulto para perro </h3>
@@ -150,7 +169,7 @@
                             <h3 class="text-center text-color-cuarto font-normal text-lg"> <a href="">Comprar</a></h3>
                         </div>
                     </div>
-                    <div class="border w-60 h-72 mx-5 mt-4 rounded-lg">
+                    <div class="border border-gray-500 shadow-lg w-60 h-auto mx-5 mt-4 rounded-lg">
                         <img class="w-40 h-40 ml-9 " src="./assets/image/eat-dog.jpg" alt="perro-con-ropa">
                         <div>
                             <h3 class=" ml-3 font-semibold text-base mb-2 mt-1 text-color-main">Bell's Adulto para perro </h3>
@@ -163,7 +182,7 @@
                     </div>
                 </div>
                 <div class="flex justify-center m-">
-                    <div class="border w-60 h-72 mx-5 mt-4 rounded-lg">
+                    <div class="border border-gray-500 shadow-lg w-60 h-auto mx-5 mt-4 rounded-lg">
                         <img class="w-40 h-40 ml-9 " src="./assets/image/eat-dog.jpg" alt="perro-con-ropa">
                         <div>
                             <h3 class=" ml-3 font-semibold text-base mb-2 mt-1 text-color-main">Bell's Adulto para perro </h3>
@@ -174,7 +193,7 @@
                             <h3 class="text-center text-color-cuarto font-normal text-lg"> <a href="">Comprar</a></h3>
                         </div>
                     </div>
-                    <div class="border w-60 h-72 mx-5 mt-4 rounded-lg">
+                    <div class="border border-gray-500 shadow-lg w-60 h-auto mx-5 mt-4 rounded-lg">
                         <img class="w-40 h-40 ml-9 " src="./assets/image/eat-dog.jpg" alt="perro-con-ropa">
                         <div>
                             <h3 class=" ml-3 font-semibold text-base mb-2 mt-1 text-color-main">Bell's Adulto para perro </h3>
@@ -185,7 +204,7 @@
                             <h3 class="text-center text-color-cuarto font-normal text-lg"> <a href="">Comprar</a></h3>
                         </div>
                     </div>
-                    <div class="border w-60 h-72 mx-5 mt-4 rounded-lg">
+                    <div class="border border-gray-500 shadow-lg w-60 h-auto mx-5 mt-4 rounded-lg">
                         <img class="w-40 h-40 ml-9 " src="./assets/image/eat-dog.jpg" alt="perro-con-ropa">
                         <div>
                             <h3 class=" ml-3 font-semibold text-base mb-2 mt-1 text-color-main">Bell's Adulto para perro </h3>
@@ -196,7 +215,7 @@
                             <h3 class="text-center text-color-cuarto font-normal text-lg"> <a href="">Comprar</a></h3>
                         </div>
                     </div>
-                    <div class="border w-60 h-72 mx-5 mt-4 rounded-lg">
+                    <div class="border border-gray-500 shadow-lg w-60 h-auto mx-5 mt-4 rounded-lg">
                         <img class="w-40 h-40 ml-9 " src="./assets/image/eat-dog.jpg" alt="perro-con-ropa">
                         <div>
                             <h3 class=" ml-3 font-semibold text-base mb-2 mt-1 text-color-main">Bell's Adulto para perro </h3>
@@ -208,12 +227,72 @@
                         </div>
                     </div>
                 </div>
-                <div class="border text-center flex justify-center h-auto w-32  mt-5 bg-color-terciario mx-auto rounded"><h2><a href="">Ver más</a></h2></div>
-                <div>1</div>
+                <div class="border text-center flex justify-center h-auto w-32  mt-12 bg-color-terciario mx-auto rounded text-lg font-medium hover:text-color-cuarto hover:bg-color-main"><h2><a href="">Ver más</a></h2></div>
+                <div>
+                    <h2 class="text-center text-color-main font-bold text-3xl py-16 ">CONTACTANOS</h2>
+                </div>
+                <div class="flex justify-center mb-20 mt-10">
+                    <div class="border h-52 w-52 mr-4 bg-color-terciario hover:bg-blue-300">
+                        <div class="flex justify-start mt-8 ml-8">
+                            <a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 3.75v4.5m0-4.5h-4.5m4.5 0-6 6m3 12c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 0 1 4.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 0 0-.38 1.21 12.035 12.035 0 0 0 7.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 0 1 1.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 0 1-2.25 2.25h-2.25Z" />
+                              </svg>
+                              </a>
+                        </div>
+                        <div class="mt-8 ">
+                            <h2 class="text-color-main font-semibold ml-8 mb-2">EMERGENCIA</h2>
+                            <h3 class="text-color-main font-medium ml-8 mb-2">945 124 356</h3>
+                            <h3 class="text-color-main font-medium ml-8 mb-2">945 124 356</h3>
+                        </div>
+                    </div>
+                    <div class="border h-52 w-52 mr-4 bg-color-terciario hover:bg-blue-300">
+                        <div class="flex justify-start mt-8 ml-8">
+                            <a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                              </svg>
+                              
+                              </a>
+                        </div>
+                        <div class="mt-8 ">
+                            <h2 class="text-color-main font-semibold ml-8 mb-2">UBICACION</h2>
+                            <h3 class="text-color-main font-medium ml-8 mb-2">Jiron calixto 123</h3>
+                            <h3 class="text-color-main font-medium ml-8 mb-2">Jiron calixto 4312</h3>
+                        </div>
+                    </div>
+                    <div class="border h-52 w-52 mr-4 bg-color-terciario hover:bg-blue-300">
+                        <div class="flex justify-start mt-8 ml-8">
+                            <a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 3.75v4.5m0-4.5h-4.5m4.5 0-6 6m3 12c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 0 1 4.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 0 0-.38 1.21 12.035 12.035 0 0 0 7.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 0 1 1.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 0 1-2.25 2.25h-2.25Z" />
+                              </svg>
+                              </a>
+                        </div>
+                        <div class="mt-8 ">
+                            <h2 class="text-color-main font-semibold ml-8 mb-2">EMAIL</h2>
+                            <h3 class="text-color-main font-medium ml-8 mb-2">tomy@gmail.com</h3>
+                            <h3 class="text-color-main font-medium ml-8 mb-2">dana@gmail.com</h3>
+                        </div>
+                    </div>
+                    <div class="border h-52 w-52 mr-4 bg-color-terciario hover:bg-blue-300 ">
+                        <div class="flex justify-start mt-8 ml-8">
+                            <a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                              </svg>
+                              
+                              </a>
+                        </div>
+                        <div class="mt-8 ">
+                            <h2 class="text-color-main font-semibold ml-8 mb-2">EMERGENCIA</h2>
+                            <h3 class="text-color-main font-medium ml-8 mb-2">945 124 356</h3>
+                            <h3 class="text-color-main font-medium ml-8 mb-2">945 124 356</h3>
+                        </div>
+                    </div>
+                </div>
+                <div></div>
             </div> 
         </main>
         <footer>
-            <div class="bg-color-main flex justify-evenly h-64">
+            <div class="bg-color-main flex justify-evenly h-64 ">
                 <div>
                     <h1 class="text-color-terciario text-2xl font-semibold h-10 py-10">Veterinaria Tomy</h1>
                     <p class="text-color-cuarto font-medium text-start">Nosotros brindamos la atencion<br>  mas completa y mejor <br> Todo al menor precio</p>
@@ -244,7 +323,7 @@
                     <a class="" href=""><svg xmlns="http://www.w3.org/2000/svg" height="100" width="100" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#07072c" d="M96 0C43 0 0 43 0 96V416c0 53 43 96 96 96H384h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V384c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H384 96zm0 384H352v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32zm32-240c0-8.8 7.2-16 16-16H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16zm16 48H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/></svg></a>
                 </div>
             </div>
-            <div class="bg-color-main ">
+            <div class="bg-color-main">
                 <hr class="w-10/12 ml-28">
                 <div class="flex justify-around">
                     <h3 class="text-color-terciario font-normal py-10 mr-96">Pagina hecha por papo Intitokc,wemovew</h3>
