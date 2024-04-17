@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 @layer components{
-    .page{
+   /*  .page{
         display: grid;
         grid-template-columns: repeat(10,1fr);
         grid-template-rows: repeat(3,1fr);
@@ -25,5 +25,5 @@
     footer{
         background-color: aliceblue;
         grid-column: span 10;
-    }
+    } */
 }

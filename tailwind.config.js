@@ -12,7 +12,8 @@ module.exports = {
         'color-cuarto':'#f7f9f9',
         'color-letter':'#202023',
         'color-red':'#FE5F55',
-        'color-green':'#35FF69'
+        'color-green':'#35FF69',
+        'color-fondo':'#f7f8fd'
       },
       container:{
         'padding':'1.75rem'
